@@ -200,6 +200,8 @@ update_scale = false
 
 [node name="Camera2D" type="Camera2D" parent="."]
 position = Vector2(620, 331)
+position_smoothing_enabled = true
+position_smoothing_speed = 3.0
 
 [node name="DifficultySystem" type="Node" parent="." node_paths=PackedStringArray("mob_spawner")]
 script = ExtResource("16_xur7a")
